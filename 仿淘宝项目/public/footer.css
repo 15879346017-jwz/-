@@ -1,0 +1,302 @@
+.footer_1{
+    width: 1190px;
+    height: 50px;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    position: relative;
+}
+.footer_1 i::before{
+    content: "";
+    display: inline-block;
+    border: 1px solid #ccccd0;
+    width: 60px;
+    margin: 0 auto;
+    border-top: 0;
+    position: absolute;
+    top: 10px;
+    left: -62px;
+}
+.footer_1>i{
+   display: inline-block;
+   width: 84px;
+   height: 20px;
+   text-align: center;
+   position: absolute;
+   top: 10px;
+   left: 50%;
+   color: #ccccd0;
+   margin-left: -42px;
+   position: relative;
+}
+.footer_1 i::after{
+    content: "";
+    display: inline-block;
+    width: 60px;
+    border: 1px solid #ccccd0;
+    border-top: 0;
+    position: absolute;
+    top: 10px;
+    right: -62px;
+}
+
+.footer_2{
+ width: 1190px;
+ height: 180px;
+ margin:0 auto;
+ /* background-color: pink; */
+ border-bottom: 1px solid #ccccd0;
+}
+.footer_2_1{
+    box-sizing: border-box;
+    width: 1190px;
+    height: 180px;
+    padding-top: 40px;
+}
+.footer_2_1 div{
+    box-sizing: border-box;
+    float: left;
+    width: 297.5px;
+    height: 95px;
+    /* background-color: violet; */
+    padding: 0 25px;
+}
+.footer_2_1 div:nth-child(n) ul li a{
+    color: #999999;
+}
+.footer_2_1 div:nth-child(1) h4{
+    width: 247.5px;
+    height: 48px;
+    margin-bottom: 5px;
+}
+.footer_2_1 div:nth-child(1) h4 span{
+    display: inline-block;
+    color: #3c3c3c;
+    box-sizing: border-box;
+    padding-top:12px;
+    margin-left:12px;
+}
+.footer_2_1 div:nth-child(1) ul li{
+    float: left;
+    margin-right:10px ;
+    font-size: 12px;
+}
+.footer_2_1 div:nth-child(2) h4{
+    width: 247.5px;
+    height: 48px;
+    margin-bottom: 5px;
+}
+.footer_2_1 div:nth-child(2) h4 span{
+    display: inline-block;
+    color: #3c3c3c;
+    box-sizing: border-box;
+    padding-top:12px;
+    margin-left:12px;
+}
+.footer_2_1 div:nth-child(2) ul li{
+    float: left;
+    margin-right:10px ;
+    font-size: 12px;
+    
+}
+.footer_2_1 div:nth-child(3) h4{
+    width: 247.5px;
+    height: 48px;
+    margin-bottom: 5px;
+}
+.footer_2_1 div:nth-child(3) h4 span{
+    display: inline-block;
+    color: #3c3c3c;
+    box-sizing: border-box;
+    padding-top:12px;
+    margin-left:12px;
+}
+.footer_2_1 div:nth-child(3) ul li{
+    float: left;
+    margin-right:10px ;
+    font-size: 12px;
+   
+}
+.footer_2_1 div:nth-child(4) h4{
+    width: 247.5px;
+    height: 48px;
+    margin-bottom: 5px;
+}
+.footer_2_1 div:nth-child(4) h4 span{
+    display: inline-block;
+    color: #3c3c3c;
+    box-sizing: border-box;
+    padding-top:12px;
+    margin-left:12px;
+}
+.footer_2_1 div:nth-child(4) ul li{
+    float: left;
+    margin-right:10px ;
+    font-size: 12px;
+    
+}
+
+.footer_3{
+    width: 1190px;
+    height: 71px;
+    margin: 0 auto;
+    /* background-color: skyblue; */
+    padding: 7px 0 0 0;
+}
+.footer_3 p{
+    width: 1190px;
+    height: 63px;
+    box-sizing: border-box;
+    margin-bottom:8px;
+    padding-bottom:8px;
+    
+}
+.footer_3 p a{
+    margin-right: 0px;
+    color: #6c6c6c;
+    font-size: 12px;
+}
+    .footer_3 p b{
+    color: #dddddd;
+    margin: 0 3px;
+}
+
+.footer_4{
+    width: 1190px;
+    height: 26px;
+    box-sizing: border-box;
+    padding-bottom: 8px;
+    /* background-color: pink; */
+    font-size: 12px;
+    line-height: 26px;
+}
+.footer_4 a{
+    color: #6c6c6c;
+    margin-right: 4px;
+}
+.footer_4 b{
+    color: #6c6c6c;
+    margin-right: 4px;
+}
+.footer_4 em{
+    padding-left: 30px;
+    color: #9c9c9c;
+}
+.footer_5{
+    width: 1190px;
+    height: 26px;
+    box-sizing: border-box;
+    /* background-color: pink;   */
+    font-size: 12px;
+    line-height: 26px;
+}
+.footer_5 span{
+    color: #9c9c9c;
+    margin-right: 4px;
+}
+.footer_5 b{
+    color: #6c6c6c;
+    margin-right: 4px;
+}
+
+.footer_6{
+    width: 1190px;
+    height: 26px;
+    box-sizing: border-box;
+    /* background-color: pink;   */
+    font-size: 12px;
+    line-height: 26px;
+}
+.footer_6 span{
+    color: #9c9c9c;
+    margin-right: 4px;
+}
+.footer_6 b{
+    color: #6c6c6c;
+    margin-right: 4px;
+}
+.footer_6 a{
+    color: #6c6c6c;
+}
+.footer_6 span:first-child{
+    margin-left:3px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+   background:url("./图片/精灵图/脚部精灵图.jpg") no-repeat;
+   background-position: -861px 0px;
+}
+.footer_7 a{
+    margin-right: 15px;
+    margin-top:5px ;
+    height: 40px;
+    display: inline-block;
+    background: url("./图片/精灵图/脚部精灵图.jpg") no-repeat;
+}
+.footer_7 a:nth-child(1){
+    /* display: inline-block; */
+    width: 36px;
+    /* height: 40px; */
+    background: url("./图片/脚部图片.gif") no-repeat;
+}
+.footer_7 a:nth-child(2){
+    /* display: inline-block; */
+    width: 30px;
+    /* height: 40px; */
+    /* background: url("../图片/脚部精灵图.jpg") no-repeat; */
+}
+.footer_7 a:nth-child(3){
+    /* display: inline-block; */
+    width: 33px;
+    /* height: 40px; */
+    /* background: url("../图片/脚部精灵图.jpg") no-repeat; */
+    background-position: -40px 0;
+}
+.footer_7 a:nth-child(4){
+    /* display: inline-block; */
+    width: 50px;
+    /* height:40px ; */
+    /* background: url("../图片/脚部精灵图.jpg") no-repeat; */
+    background-position: -80px 0;
+}
+.footer_7 a:nth-child(5){
+    /* display: inline-block; */
+    width: 83px;
+    /* height: 40px; */
+    /* background: url("../图片/脚部精灵图.jpg") no-repeat; */
+    background-position: -140px 0;
+}
+.footer_7 a:nth-child(6){
+    /* display: inline-block; */
+    width: 250px;
+    /* height:40px ; */
+    background: url("./图片/脚部图片.png_250x250") no-repeat;
+    background-position: 0 -18px;
+}
+.footer_7 a:nth-child(7){
+    /* display: inline-block; */
+    width: 105px;
+    /* height:40px ; */
+    /* background: url("../图片/脚部精灵图.jpg") no-repeat; */
+    background-position: -650px 0;
+}
+.footer_7 a:nth-child(8){
+    /* display: inline-block; */
+    width: 82px;
+    /* height: 40px; */
+    /* background: url("../图片/脚部精灵图.jpg") no-repeat; */
+    background-position:-340px 0 ;
+}
+.footer_7 a:nth-child(9){
+    /* display: inline-block; */
+    width: 97px;
+    /* height: 40px; */
+    /* background: url("../图片/脚部精灵图.jpg") no-repeat; */
+    background-position: -765px 0;
+}
+.footer_7 a:nth-child(10){
+    /* display: inline-block; */
+    width: 249px;
+    /* height: 40px; */
+    /* background: url("../图片/脚部精灵图.jpg") no-repeat; */
+    background-position: -890px 0;
+}

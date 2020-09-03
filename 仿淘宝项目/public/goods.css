@@ -1,0 +1,257 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 2px;
+}
+.body{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.body1,.body2{
+    width: 45%;
+    height: 100%;
+}
+.body2{
+    width: 54%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.body1-1{
+     padding: 20px;
+     position: relative;
+     /* overflow: hidden; */
+}
+.body1-1-1{
+    width: 390px;
+    height: 390px;
+    position: absolute;
+    top: 20px;
+    right: -380px;
+    overflow: hidden;
+    display: none;
+    /* background-size: 500%; */
+}
+.body1-1>div:first-child{
+    position: relative;
+}
+.body1-1>div:first-child>img{
+    width: 390px;
+    height: 390px;
+}
+.body1-1>div:first-child>div{
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.body1-1>ul{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.body1-1>ul>li{
+    width: 60px;
+    height: 60px;
+    border: 2px solid transparent; 
+}
+.body1-1>ul>li.on{
+    border: 2px solid black;
+}
+.body1-1>ul>li>img{
+    width: 100%;
+    height: 100%;
+}
+.body1-2{
+    height: 82px;
+    margin-top: 20px;
+    padding: 38px 40px 25px;
+    font-size: 12px;
+    color: #999999;
+}
+.body1-2>a{
+    float: right;
+    font-size: 12px;
+    color: #999999;
+}
+
+.body2>h1{
+   width: 100%;
+   height: 72px;
+   font-size: 16px;
+   color: #000000;
+   padding: 20px 10px 12px;
+}
+.body2>h1>p{
+   color: #ff0036;
+   font-size: 14px;
+}
+.body2-1{
+    width:100% ;
+    height: 40px;
+    background-color: #E5E4E4;
+}
+.body2-1>span{
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+    color: #999999;
+    font-size: 12px;
+    line-height: 40px;
+    padding-left: 10px;
+    margin-bottom: -2px;
+}
+.body2-1>p{
+    float: right;
+    height: 100%;
+    width: 80%;
+    font-size: 24px;
+    color: #ff0036;
+    line-height: 40px;
+}
+.body2-2{
+    width: 100%;
+    height: 40px;
+}
+.body2-2>span{
+    float: left;
+    width: 15%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #999999;
+    margin: 0 10px;
+}
+.body2-2>p{
+    float: left;
+    height: 100%;
+    width: 70%;
+    color: #333333;
+    font-size: 12px;
+    margin-left: 5px;
+    line-height: 40px;
+}
+.body2-3{
+    width: 510px;
+    height: 40px;
+    display: flex;
+    padding: 10px 0; 
+    border-top: 1px dotted #999999;
+    border-bottom: 1px dotted #999999;
+}
+.body2-3>li{
+    width: 50%;
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+}
+.body2-3>li:first-child{
+    border-right: 1px solid #999999;
+}
+.body2-3>li:first-child span{
+    color: #ff0036;
+}
+.body2-4{
+    width: 510px;
+    height: 150px;
+}
+.body2-4>span{
+    float: left;
+    color: #999999;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.body2-4>p{
+    height: 150px;
+    width: 420px;
+    float: left;
+    color: #ff0036;
+    font-size: 14px;
+    margin-left: 30px;
+}
+.body2-5{
+    width: 100%;
+    height: 7%;
+
+}
+.body2-5>span:first-of-type,.body2-5>span:last-of-type{
+    float: left;
+    width: 50px;
+    height: 42px;
+    line-height: 42px;
+    color: #999999;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.body2-5>span:last-of-type{
+    width: 100px;
+}
+.body2-5>input{
+    float: left;
+    height: 42px;
+    width: 50px;
+    margin-left: 40px;
+    font-size: 16px;
+    border: 1px solid #999999;
+    outline:none;
+    padding:5px 0 0 10px ;
+}
+.body2-5>p{
+    float: left;
+    width: 30px;
+    height: 42px;
+}
+.body2-5>p>span:last-child,.body2-5>p>span:first-child{
+    font-size: 19px;
+    margin-left: 5px;
+    color: #999999;
+}
+.body2-6{
+    width: 100%;
+    height: 10%;
+}
+.body2-6>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.body2-6>div>a{
+    display: inline-block;
+    width: 30%;
+    height: 40px;
+    margin-top: 10px;
+    line-height: 40px;
+    text-align: center;
+}
+.body2-6>div>a:first-child{
+    border: 1px solid #ff0036;
+    background-color: #FFEDED;
+    color:#ff0036 ;
+}
+.body2-6>div>a:last-child{
+    color: white;
+    background-color: #ff0036;
+}
+
+
+
+
+
+

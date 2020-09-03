@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片懒加载</title>
+    <link rel="stylesheet" href="./selectGoods.css">
+    <script src="./jquery-1.11.3.js"></script>
+</head>
+<body>
+    <div class="header">
+         <img src="./图片/商品选择/图1.png" alt="">
+    </div>
+    <div class="body">
+         <div class="body1-1">
+              <div><img src="./图片/好货图片/好货图1.jpg_.webp" alt=""></div>
+              <div>
+                    <div>你想要的鞋</div>
+                    <div>￥99.99</div>
+                    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, suscipit hic quibusdam eius facilis quo. Delectus dolor ab, quod numquam quam, aliquam porro ex facilis veritatis doloremque dolorem et fugit.</div>
+              </div>
+         </div>
+         
+    </div>
+
+      <script>
+          $(function(){
+              $.ajax({
+                  type:'get',
+                  url:'/pro/v1/imgs/',
+                  dataType:'json',
+                  success:function(res){
+                           console.log(res);
+                  },
+                  error:function(){
+
+                  }
+              })
+          })
+
+      </script>
+</body>
+</html>

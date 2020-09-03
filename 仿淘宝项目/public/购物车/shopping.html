@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="shortcut icon" href="./图片/log图/taobao.png" type="image/x-icon">
+    <link rel="stylesheet" href="./shopping.css">
+</head>
+<body>
+      <div>
+          <img src="./图片/购物车/图1.png" alt="">
+      </div>
+      <div class="shopping">
+           <h1>{{msg}}</h1>
+           <div class="header">
+               <ul>
+                   <li><input type="checkbox"> 全选</li>
+                   <li>商品信息</li>
+                   <li>单价</li>
+                   <li>数量</li>
+                   <li>金额</li>
+                   <li>操作</li>
+               </ul>
+           </div>
+           <div class="sp1">
+               <table></table>
+               <div class="sp1-1">
+                     <div>
+                         <img src="./图片/购物车/满减图.png" alt="">
+                         <span>7.10-7.12每满300减30,可跨店</span>
+                     </div>
+                     <div class="sp1-2">
+                          <div>
+                              <input type="checkbox">
+                          </div>
+                          <div>
+                              <img src="./图片/购物车/好货图1.jpg_.webp" alt="">
+                              <div>
+                                    <span>【暑期价】你要的东西</span>
+                                    <img src="./图片/购物车/图2.png" alt="">
+                              </div>
+                          </div>
+                          <div>
+                              <span>详情</span>
+                              <p></p>
+                          </div>
+                          <div>
+                              <del>￥99.99</del>
+                              <p>￥{{price}}</p> 
+                          </div>
+                          <div>
+                              <span @click="sub()">-</span>
+                              <span>{{number}}</span>
+                              <span @click="add()">+</span>
+                          </div>
+                          <div>
+                              ￥{{(number*price).toFixed(2)}}
+                          </div>
+                          <div>
+                              <span>删除</span>
+                          </div>
+                     </div>
+                     <div class="sp2">
+                           <a href="#">支付</a>
+                           <span>总金额:￥{{}}</span>
+                     </div>
+               </div>
+           </div>
+      </div>
+      <script src="./vue.js"></script>
+      <script src="./shopping.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片上传</title>
+</head>
+<body>
+    <input type="file" id="imgs">
+    <button onclick="fun()">上传</button>
+    <div id="d1"></div>
+    <script>
+        function fun(){
+        var a=imgs.value;
+        var b=a.lastIndexOf('\\');
+        var $imgs='./图片/实惠专业/'+a.slice(b+1);
+        // var $imgs=imgs.value;
+         var xhr=new XMLHttpRequest();
+         xhr.onreadystatechange=function(){
+             if(xhr.readyState==4 && xhr.status==200){
+                 var r=xhr.responseText;
+                 console.log(r);
+                 if(r==0){
+                     d1.style.color="red";
+                     d1.innerHTML="失败";}
+                 if(r==1){d1.innerHTML="成功";}
+             }
+         }
+         xhr.open('put','/pro/v2/insert',true);
+         xhr.setRequestHeader('content-type','application/x-www-form-urlencoded');
+         xhr.send(`imgs=${$imgs}`);
+         }
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+var app=new Vue({
+    el:'.shopping',
+    data:{
+        msg:'我的购物车',
+        number:0,
+        price:49.00,
+        goods:[]
+    },
+    methods:{
+        sub(){
+            if(this.number>0){
+                this.number--;
+            }
+        },
+        add(){
+                this.number++;
+        }
+    }
+})    

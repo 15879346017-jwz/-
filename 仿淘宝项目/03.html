@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./vue.js"></script>
+    <style>
+        #app>div{
+            width: 300px;
+            border: 1px solid #3c3c3c;
+          position: relative;
+            }
+            #app>div>span{
+               position: absolute;
+               top: 0;
+               right: 0;
+               border: 1px solid #999999;
+            }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <button @click="show">登录</button>
+        <div v-show="isShow">
+            用户名： <input type="text"><br>
+            密码： <input type="text"><br>
+            <button>登录</button><br>
+            <span @click="pop" >×</span>
+        </div>
+    </div>
+    <script>
+        new Vue({
+            el:'#app',
+            data:{
+               isShow:false
+            },
+            methods:{
+                show(){
+                    if(this.isShow==false){
+                        this.isShow=true;
+                    }
+                },
+                pop(){
+                    if(this.isShow==true){
+                        this.isShow=false;
+                        }
+                }
+            }
+        })
+    </script>
+</body>
+</html>
